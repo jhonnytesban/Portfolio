@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- <h1 class="body__title">EL Paso de los locos</h1> -->
+
+
+<h1 class="title">El Juedo De Los Dados</h1>
+
+
+    
+    <form action="" class="form">
+        <p id="resultado" class="form__score"></p>
+        
+       
+        <fieldset id="valores" class="form__options">
+            <legend class="options__title">Elige un número: </legend>
+            <label for="valor1" class="option__label">1:</label>
+            <input type="radio" id="valor1" name="number" value="1" class="option__input">
+
+            <label for="valor2" class="option__label">2:</label>
+            <input type="radio" id="valor2" name="number" value="2" class="option__input">
+
+            <label for="valor3" class="option__label">3:</label>
+            <input type="radio" id="valor3" name="number" value="3" class="option__input">
+
+            <label for="valor4" class="option__label">4:</label>
+            <input type="radio" id="valor4" name="number" value="4" class="option__input">
+
+            <label for="valor5" class="option__label">5:</label>
+            <input type="radio" id="valor5" name="number" value="5" class="option__input">
+
+            <label for="valor6" class="option__label">6:</label>
+            <input type="radio" id="valor6" name="number" value="6" class="option__input">
+        </fieldset>
+
+        <fieldset class="form__quantity">
+            <legend class="quantity__title">Apuesta una cantidad:</legend>
+            <label for="cantidad" class="title__label">Cantidad: </label>
+            <input type="number" id="cantidad" class="label__input">
+        </fieldset>
+
+        <input type="submit" value="Lanzar dado" id="button" class="button">
+        <p id="dado" class="dado"></p>
+        <p id="fin" class="fin"></p>
+        <div id="reiniciar"></div>
+</form>
+
+
+
+
+
+
+
+<script src="js.js"></script>
+</body>
+</html>

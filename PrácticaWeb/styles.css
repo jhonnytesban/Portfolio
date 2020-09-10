@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+
+.container-header{
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(135deg, hsla(229, 76%, 66%, 0.5) 0%, hsla(270, 37%, 46%, 0.5) 100%),url(img/pexels-andrea-piacquadio-935743.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-position:center; */
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    position: relative;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    /* left: 0; */
+    height: 100px;
+    width: 100%;
+
+}
+.header__title{
+    padding: 30px;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-family: serif;
+    
+}
+.header-nav{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+.header-nav__link{
+    display:block;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 3px rgb(63, 62, 62);
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #fff;
+}
+.header-nav__link:hover{
+    width: 110px;
+    height: 35px;
+}
+
+/* Main styles */
+
+.main__section{
+    margin-bottom: 40px;
+}
+.main__title{
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: serif;
+}
+.section__article{
+    display: flex;
+    justify-content: space-evenly;
+}
+.article__text{
+    height: 25%;
+    width: 25%;
+}
+.article__title{
+    font-size: 25px;
+}
+
+/* galleria de ilustraciones */
+
+.gallery__img{
+    width: 500px;
+}
+.gallery__text{
+    /* border: solid red; */
+    width: 550px;
+    height: 200px;
+    margin-left: 50px;
+}
+.gallery__article{
+    background-image: linear-gradient(135deg, hsla(229, 76%, 66%, 0.5) 0%, hsla(270, 37%, 46%, 0.5) 100%);
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 35% 20%;
+    border: solid black;
+    align-items: center;
+    justify-items: start;
+}
+
+/* Footer */
+
+.footer{
+    background-image: linear-gradient(135deg, hsla(229, 76%, 66%, 0.5) 0%, hsla(270, 37%, 46%, 0.5) 100%);
+    height: 150px;
+}
+.footer-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer__link{
+    text-decoration: none;
+}
+p{
+    font-family: sans-serif;
+}

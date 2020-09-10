@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/dice-3874307_1280.jpg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title{
+    margin-left: 2em;
+    font-family: gloria hallelujah;
+    color: rgb(143, 238, 113);
+
+}
+
+/* Formulario */
+
+    /* Formulario 1 */
+.form{
+    margin: 0 0 0 3em;
+    width: 17%;
+}
+.form__score{
+    font-family: 'Baloo 2', cursive;
+    color: #fff;
+}
+.form__options{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.options__title{
+    font-family: 'Baloo 2', cursive;
+    color: #fff;
+}
+.option__label{
+    font-family: 'Baloo 2', cursive;
+    color: #fff;
+
+}
+
+    /* Formulario 2 */
+
+.form__quantity{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.quantity__title{
+    font-family: 'Baloo 2', cursive;
+    color: #fff;
+}
+.title__label{
+    font-family: 'Baloo 2', cursive;
+    color: #fff;
+}
+.label__input{
+    /* background-color: lime; */
+    border: none;
+    border-radius: 15px;
+}
+
+    /* Pie del formulario */
+   
+.button{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);    border: none;
+    font-family: 'Baloo 2', cursive;
+    font-size: 1em;
+    margin: 0 0 15px 30px;
+    outline: none ;
+}
+.button:hover{
+    background-image: linear-gradient(to right, hsl(140, 56%, 46%) 0%, #38f9d7 100%);    border: none;
+}
+
+.dado{
+    font-family: 'Baloo 2', cursive;
+    color: #fff;
+}
+.fin{
+    font-family: 'Baloo 2', cursive;
+    color: rgb(143, 238, 113);
+    margin-bottom: 10px;
+}
