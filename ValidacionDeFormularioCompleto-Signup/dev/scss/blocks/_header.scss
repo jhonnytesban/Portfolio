@@ -1,0 +1,34 @@
+.head{
+    margin-bottom: 60px;
+    
+    @include desktop() {
+        margin: auto;
+        padding: 0 50px;
+    }
+}
+.head__title{
+    font-family: $font;
+    color: #fff;
+    font-size: 1.8em;
+    padding: 50px 50px 20px;
+
+    @include desktop() {
+        text-align: left;
+        font-size: 2.5em;
+        padding: 50px 30px 20px 70px;
+    }
+}
+.head__text{
+    font-family: $font;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
+    padding: 0 30px;
+
+    @include desktop() {
+        text-align: left;
+        padding-left: 70px;
+        padding-right: 0;
+    }
+}
